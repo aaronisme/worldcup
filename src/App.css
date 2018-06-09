@@ -1,7 +1,10 @@
+#root{
+  height: 100%;
+}
 .App {
   text-align: center;
-  height: calc(100% - 56px);
-  overflow: hidden;
+  height: 100%;
+  background-color: #EEEEEE;
 }
 
 .App-logo {
@@ -12,7 +15,7 @@
 .App-header {
   background-image: url("./fifa.jpg");
   background-size: 100% 100%;
-  height: 220px;
+  height: 200px;
 }
 
 .App-title {
@@ -24,6 +27,9 @@
 }
 
 .Content {
+  width: 100%;
+  padding-bottom: 100px;
+
 }
 
 @keyframes App-logo-spin {

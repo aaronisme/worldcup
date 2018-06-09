@@ -20,7 +20,7 @@ class NavBar extends React.Component {
   };
 
   handleChange = (event, value) => {
-    this.setState({ activeIndex: value });
+    this.setState({ activeIndex: value }, () => this.props.onSwitch(this.state.activeIndex));
   };
 
   render() {
